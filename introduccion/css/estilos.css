@@ -1,0 +1,12 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(lightblue,blue) no-repeat;
+}
+
+h1{
+    font-family: "Bitcount Grid Double", system-ui;
+    text-align: center;
+}

@@ -3,10 +3,11 @@ html,body{
 }
 
 body{
-    background: linear-gradient(lightblue,blue) no-repeat;
+    background:url(Fondo.jpg)no-repeat;
 }
 
 h1{
+    background: rgba(255,255,255,0.6);
     font-family: "Bitcount Grid Double", system-ui;
     text-align: center;
 }

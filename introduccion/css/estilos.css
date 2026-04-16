@@ -3,11 +3,42 @@ html,body{
 }
 
 body{
+    
     background:url(Fondo.jpg)no-repeat;
+    background-size: cover;
 }
-
+fieldset{
+    background:rgba(255,255,255,0.4);
+    box-shadow:0 0 10px 3px #ffffff;
+    margin: 50px auto 10px auto;
+}
+legend{
+    color:gold;
+    font-size: 50px;
+    font-style: italic;
+    text-align:right;
+    -webkit-text-stroke:#000 1px;
+}
 h1{
     background: rgba(255,255,255,0.6);
     font-family: "Bitcount Grid Double", system-ui;
+    padding: 20px;
     text-align: center;
+    transform: rotate(5deg) skew(5deg);
+}
+
+progress{
+    accent-color: red;
+}
+
+.nom{
+    background: transparent;
+    border-bottom: solid yellow;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    color: darkblue;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
 }
